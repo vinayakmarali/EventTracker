@@ -1,0 +1,16 @@
+﻿<h2> Events</h2>
+<div ng-controller="mainController">
+    <table class="table table-striped">
+        <tr ng-repeat="event in events">
+            <td>{{event.EventName}}</td>
+            <td class="text-right"><button ng-click="gotoAttendee(event)" class="btn btn-primary">View Attendees</button></td>
+            <td class="text-right">
+                <button class="btn btn-danger" ng-click="deleteEvent(event)">X</button>
+            </td>
+        </tr>
+    </table>
+    <form name="eventForm">
+        <input type="text" required ng-model="newEvent" name="newEvent" placeholder="Event Name" />
+        <button href="#" class="btn btn-primary" ng-click="addEvent()" ng-disabled="eventForm.newEvent.$invalid">Add Event</button>
+    </form>
+</div>

@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTracker", "EventTracker\EventTracker.csproj", "{F80F9295-8312-416A-B6A3-AD1057909E18}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarData", "..\..\..\..\Downloads\Assignment\Websites\CarData\", "{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CarData"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Assignment\Websites\CarData\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CarData\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CarData"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Assignment\Websites\CarData\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CarData\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2457"
+		SlnRelativePath = "..\..\..\..\Downloads\Assignment\Websites\CarData\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEntityModel", "..\..\..\..\Downloads\Assignment\Projects\CarData\CarEntityModel\CarEntityModel.csproj", "{331B6352-5402-45A5-99FF-F050C65657EA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarWebsite", "..\..\..\..\Downloads\Assignment\Websites\CarWebsite\", "{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CarWebsite"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Assignment\Websites\CarWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CarWebsite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CarWebsite"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Downloads\Assignment\Websites\CarWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CarWebsite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2458"
+		SlnRelativePath = "..\..\..\..\Downloads\Assignment\Websites\CarWebsite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Car.Data", "Car.Data", "{667B014D-25B0-401F-A3ED-59AB5AAE828F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Car.Website", "Car.Website", "{CA63E518-A5A8-4113-94E3-82C61F355D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80F9295-8312-416A-B6A3-AD1057909E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80F9295-8312-416A-B6A3-AD1057909E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80F9295-8312-416A-B6A3-AD1057909E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80F9295-8312-416A-B6A3-AD1057909E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{331B6352-5402-45A5-99FF-F050C65657EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331B6352-5402-45A5-99FF-F050C65657EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331B6352-5402-45A5-99FF-F050C65657EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331B6352-5402-45A5-99FF-F050C65657EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8227B62-7AA8-494B-B5F2-00F7A82DC4AF} = {667B014D-25B0-401F-A3ED-59AB5AAE828F}
+		{331B6352-5402-45A5-99FF-F050C65657EA} = {667B014D-25B0-401F-A3ED-59AB5AAE828F}
+		{83F7F3E9-CBB6-453C-B26A-F2ED12051EF7} = {CA63E518-A5A8-4113-94E3-82C61F355D0D}
+	EndGlobalSection
+EndGlobal

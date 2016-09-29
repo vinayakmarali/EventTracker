@@ -1,0 +1,16 @@
+﻿<h2> Attendees</h2>
+    <div ng-controller="attendeeController">
+        <table class="table table-striped">
+            <tr ng-repeat="attendee in attendees">
+                <td>{{attendee.FirstName}} {{attendee.LastName}}</td>
+                <td class="text-right">
+                    <button class="btn btn-danger" ng-click="deleteAttendee(attendee)">X</button>
+                </td>
+            </tr>
+        </table>
+        <form name="attendeeForm">
+            <input type="text" required ng-model="firstName" name="firstName" placeholder="First Name" />
+            <input type="text" required ng-model="lastName" name="lastName" placeholder="Last Name" />
+            <button href="#" class="btn btn-primary" ng-click="addAttendee()" ng-model="events" ng-disabled="attendeeForm.firstName.$invalid || attendeeForm.lastName.$invalid">Add Attendee</button>
+        </form>
+    </div>
